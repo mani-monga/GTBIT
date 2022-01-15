@@ -1,0 +1,210 @@
+@media only screen and (max-width:1000px){
+    .header{
+        width: 100%;
+        position: relative;
+    }
+
+    nav img{
+        width:30px;
+    }
+    .content p{
+        text-align: center;
+    }
+    .text-box h1{
+        font-size: 30px;
+    }
+    .text-box p{
+        font-size: 10px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        
+        position: absolute;
+        background-color: #f44336;
+        height: 100vh;
+        width: 300px;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        text-align: left;
+        z-index: 4;
+        transition: 0.5s ease-in;
+
+    }
+    
+    nav .fa{
+        display: block;
+        color: white;
+        margin: 2px 2px;
+        font-size: 30px;
+        cursor: pointer;
+
+    }
+    .fa-times::before{
+        display: block;
+        
+        color: white;
+        margin: 2px 8px;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    .nav-links li{
+        padding: 30px 2px;
+    }
+    /* ------COURSE----------- */
+    .course{
+            padding-top:50px;
+            
+    }
+    .col{
+        margin: 10px 0;
+    }
+    .row{
+            flex-direction: column;
+    }
+    /* -------ALUMNI-------- */
+    .box{
+        padding-top: 0;
+        flex-direction: column;
+    }
+    /* ---------Facitilies----------- */
+
+    .facility img{
+        width:200px
+    }
+    /* --------testimonial */
+    .testimonial h1{
+        font-size: 2em;
+    }
+    .testimonial-col{
+        flex-direction: column;
+    }
+    .testimonial-col img{
+        display: none;
+    }
+    /* -----------cta---- */
+
+    .cta{
+        margin: 10px 0;
+        padding: 30px 0;
+    }
+    .footr{
+        width: 60%;
+    }
+    .footr p{
+        font-size: 0.5em;
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .dropbtn{
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    .ddcontent{
+        position: absolute;
+        top: 0;
+        display: none;
+        opacity: 0;
+    }
+
+    .about{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mcontent{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .mcontent img{
+        width: 200px;
+    }
+
+    .blog-content{
+        margin: 0px auto;
+    }
+    .blog-right{
+        margin :20px;
+        padding: 20px;
+        width: 80%;
+        border: 1px solid black;
+    }
+    .blog-right div{
+        padding: 5px;
+    }
+
+    .chead{
+        flex-direction: column;
+        padding :30px 0;
+        width: 100%;
+    }
+    .fhead form{
+        width: 60%;
+    }
+    
+    .hbox{
+        flex-basis: 30%;
+        color: white;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .hbox h1{
+        font-size: 2em;
+        
+        padding-bottom: 10px;
+    }
+    .hbox a{
+        padding: 10px 10px;
+        margin: 0 20px;
+        font-size: 1em;
+    }
+    .fbox{
+        width: 60%;
+        background-color:#000b69;
+        padding:30px ;
+        flex-basis: 50%;
+        flex-direction: column;
+        margin: auto;
+        
+        
+        
+    }
+    .fbox input , .fbox textarea , .fbox select{
+        display: block;
+        width: 100%;
+        padding: 5px ;
+        outline: none;
+        border: 1px solid #ccc;
+    
+    }
+    .fbox label{
+        color: white;
+        text-align: center;
+        /* padding-bottom: 5px; */
+    }
+    .fbox button{
+        margin: 0 10px;
+    }
+    .supbox{
+        flex-direction: column;
+        /* padding: 0; */
+    }
+    .map{
+        width: 80%;
+        padding: 30px 0;
+    }
+    .box2{
+        padding: 10px;  
+    }
+    .box2 div{
+        padding: 5px;
+        text-align: center;
+    }
+
+}
