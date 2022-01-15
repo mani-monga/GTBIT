@@ -108,7 +108,7 @@ nav .fa{
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(26, 29, 44, 0.7)),url(../img/GTBIT.webp);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(26, 29, 44, 0.7)),url(../img/washington.png);
     background-position: center;
     background-size: cover;
     z-index: 1;
@@ -388,7 +388,7 @@ margin: 10px;
 .cta{
     /* margin: 100px 0  0 auto; */
     width: 100%;
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/banner2.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/banner2.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
