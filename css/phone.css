@@ -144,6 +144,9 @@
         padding :30px 0;
         width: 100%;
     }
+    .branch{
+        flex-direction: column;
+    }
     .fhead form{
         width: 60%;
     }

@@ -10,16 +10,28 @@ function hidemenu(){
 }
 
 var dd = document.getElementById("ddcontent");
-var tb = document.getElementById("tb");
+var hd = document.getElementById("header");
 
 function show(){
     dd.style.display = "flex";
-    tb.style.zIndex = "-1";
+    dd.style.position = "fixed";
+   
     
 }
 
 function hide(){
     dd.style.display = "none";
-    tb.style.zIndex = "2";
+     
 }
 
+const head = document.querySelector('.navbar')
+head.style.backgroundColor = '#000000';
+window.onscroll = function(){
+    var top =  window.scrollY;
+    if(top >= 280){
+        head.style.backgroundColor = '#000b69';
+    }
+    else{
+        head.style.backgroundColor = '#000000';
+    }
+}
