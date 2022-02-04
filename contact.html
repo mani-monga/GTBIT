@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="./css/phone.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/a9ccedeabd.js"></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
 
 
     <title>GTBIT: Contact Us</title>
@@ -48,21 +50,19 @@
         <a href="./virtual tour.html" class="herobtn" target="_blank">360&deg; Tour </a>
     </div>
     <div class="fbox">
-        <h2 style="text-align: center;color: white;padding-bottom: 15px;">Send Your Query Here</h2>
+        <h2 >Send Your Query Here</h2>
         <form action="">
             <input type="text" placeholder="Enter Your Name" required>
             <input type="mail" placeholder="Enter Your Email Address" required>
-            <label for="course">Enter Your Course</label>
             <select name="course" id="course" >
-                <option value="">--Please choose an option--</option>
+                <option value="" disabled selected>Select Your Course</option>
                 <option value="diploma">Diploma</option>
                 <option value="bachelors">B.tech</option>
                 <option value="masters">M.tech</option>
             </select>
 
-            <label for="branch">Enter Your Branch</label>
             <select name="branch" id="branch" >
-                <option value="">--Please choose an option--</option>
+                <option value="" disabled selected>Select Your Branch</option>
                 <option value="cs">Computer Science</option>
                 <option value="mech">Mechanical</option>
                 <option value="electric">Electrical</option>
